@@ -1,0 +1,23 @@
+╭══════════════════════════════════════════╮
+║                              源易网--中国源码下载站                                ║
+║                                                                                    ║
+║              源码下载:www.downcode.com  源码论坛:www.downcode.net                  ║
+║                                                                                    ║
+║                       如有转载请勿删除以上信息，谢谢合作                           ║
+╰══════════════════════════════════════════╯
+╭══════════════════════════════════════════╮
+║ 　　　　　　　　　　　　　　　　程序相关使用说明　　　　　　　　　　  　　　　　　 ║
+╰══════════════════════════════════════════╯
+
+
+
+康佑淘宝拍拍专用计数器10.3
+
+升级说明：
+
+加快了数据处理速度
+
+1.帐号 admin
+  密码 admin
+
+2.此计数器专为淘宝 拍拍 易趣店铺定做

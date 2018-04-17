@@ -1,0 +1,123 @@
+function setCookie(name, value) {
+	try {
+		var argv = setCookie.arguments;
+		var argc = setCookie.arguments.length;
+		var expires = (argc > 2) ? argv[2] : null;
+		if(expires!=null) {
+			var LargeExpDate = new Date ();
+			LargeExpDate.setTime(LargeExpDate.getTime() + (expires*1000*3600*24));
+		}
+		document.cookie = name + "=" + escape (value)+((expires == null) ? "" : ("; expires=" +LargeExpDate.toGMTString()));
+		return true;
+	}catch(e) {
+		return false;
+	}
+}
+
+function getCookie(Name) {
+	var search = Name + "=";
+	var returnvalue = "";
+	if (document.cookie.length > 0) {
+		offset = document.cookie.indexOf(search);
+		if (offset != -1) { 
+			offset += search.length;
+			end = document.cookie.indexOf(";", offset); 
+			if (end == -1)
+				end = document.cookie.length;
+			returnvalue = unescape(document.cookie.substring(offset,end));
+
+		}
+	}
+
+	return returnvalue;
+}
+
+    function changeStyle(color) {
+		var purple_dark = "#F9E8F8";
+		var purple_light = "#FDF6FD";
+        var orange_dark = "#FFEFCE";
+        var orange_light = "#FEFAEF";
+        var blue_dark = "#E2F4FF";
+        var blue_light = "#EBF8FF";
+        var grey_dark = "#F2F2F2";
+        var grey_light = "#F6F6F6";
+
+        var top_banner = (document.all) ? document.styleSheets[1].rules[0] : document.styleSheets[1].cssRules[0];
+        var leftnav_current = (document.all) ? document.styleSheets[1].rules[1] : document.styleSheets[1].cssRules[1];
+        var leftnav_bg = (document.all) ? document.styleSheets[1].rules[4] : document.styleSheets[1].cssRules[4];
+        var pagetype_bg = (document.all) ? document.styleSheets[1].rules[3] : document.styleSheets[1].cssRules[3];
+        var page_bar_bg = (document.all) ? document.styleSheets[1].rules[2] : document.styleSheets[1].cssRules[2];
+        var table_td_bg = (document.all) ? document.styleSheets[1].rules[5] : document.styleSheets[1].cssRules[5];
+        var div_corner = (document.all) ? document.styleSheets[1].rules[6] : document.styleSheets[1].cssRules[6];
+
+        if(color == "orange") {
+            top_banner.style.background = "transparent url(../../images/ystats00.png) repeat-x left -28px";
+			leftnav_current.style.background = "transparent url(../../images/ystats00.png) no-repeat scroll left top";
+            leftnav_bg.style.backgroundColor = orange_light;
+            pagetype_bg.style.backgroundColor = orange_dark;
+            page_bar_bg.style.background = orange_dark+" none repeat scroll 0 50%";
+            table_td_bg.style.backgroundColor = orange_light;
+            div_corner.style.background = "transparent url(../../images/ystats00.png) no-repeat -19px -113px";
+
+        }else if(color == "purple") {
+            top_banner.style.background = "transparent url(../../images/ystats00.png) repeat-x left -28px";
+			leftnav_current.style.background = "transparent url(../../images/ystats00.png) no-repeat scroll left top";
+            leftnav_bg.style.backgroundColor = purple_light;
+            pagetype_bg.style.backgroundColor = purple_dark;
+            page_bar_bg.style.background = purple_dark+" none repeat scroll 0 50%";
+            table_td_bg.style.backgroundColor = purple_light;
+            div_corner.style.background = "transparent url(../../images/ystats00.png) no-repeat -19px -113px";
+
+        }else if(color == "blue") {
+            top_banner.style.background = "transparent url(../../images/ystats00.png) repeat-x left -28px";
+			leftnav_current.style.background = "transparent url(../../images/ystats00.png) no-repeat scroll left top";
+            leftnav_bg.style.backgroundColor = blue_light;
+            pagetype_bg.style.backgroundColor = blue_dark;
+            page_bar_bg.style.background = blue_dark+" none repeat scroll 0 50%";
+            table_td_bg.style.backgroundColor = blue_light;
+            div_corner.style.background = "transparent url(../../images/ystats00.png) no-repeat -19px -113px";
+
+        }else if(color=="grey" || color=="") {  // default grey
+            top_banner.style.background = "transparent url(../../images/ystats00.png) repeat-x left -28px";
+            leftnav_current.style.background = "transparent url(../../images/ystats00.png) no-repeat scroll left top";
+            leftnav_bg.style.backgroundColor = grey_light;
+            pagetype_bg.style.backgroundColor = grey_dark;
+            page_bar_bg.style.background = grey_dark+" none repeat scroll 0 50%";
+            table_td_bg.style.backgroundColor = "#FFFFCC";
+            div_corner.style.background = "transparent url(../../images/ystats00.png) no-repeat -19px -113px";
+        }
+    }
+
+    function styleBtnClick(selcolor) {
+        var ul = document.getElementById("changeStyleList");
+
+        var cookie_color = getCookie("_ystat_style");
+        if(selcolor!=cookie_color) {
+            setCookie("_ystat_style", selcolor, 30);
+            changeStyle(selcolor);
+        }
+
+        var lis = ul.childNodes;
+        var ln = lis.length;
+        for(i=0; i<ln; i++) {
+            if(lis[i].nodeType==1) {
+                var color = lis[i].getAttribute("color");
+                if( color == selcolor ) {
+                    lis[i].childNodes[0].src = "./images/"+color+"00.gif";
+                }else {
+                    lis[i].childNodes[0].src = "./images/"+color+"00.gif";
+                }
+            }
+        }
+    }
+
+    (function() {
+        var cur_color = getCookie("_ystat_style");
+        if(cur_color=='') {
+            setCookie("_ystat_style", "grey", 30);
+        }else if(cur_color=='grey') {
+            return;
+        }else {
+            changeStyle(cur_color);
+        }
+     }());

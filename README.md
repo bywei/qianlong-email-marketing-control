@@ -1,2 +1,46 @@
 # qianlong-email-marketing-control
-é’±é¾™é‚®ä»¶ç¾¤å‘ç³»ç»ŸWebæ§åˆ¶å°(qianlong email marketing control) ï¼Œé…åˆqianlong-email-marketing-assistantä½¿ç”¨
+
+Ç®ÁúÓÊ¼şÈº·¢ÏµÍ³µÄWeb¹ÜÀí½çÃæ£¬ÊµÏÖÔÚÏßÓÊ¼şÓªÏúĞ§¹û¸ú×Ù£¬Ö§³ÖÔÚÏßÉêÇëÈí¼şÕÊºÅ£¬ÔÚÏß¹ÜÀí¸öÈË×ÊÁÏĞÅÏ¢£¬ÓÊ¼şÄÚ²¿Á´½ÓÍ³¼Æ·ÖÎöµÈ¹¦ÄÜ¡£
+
+![screenshot](https://github.com/bywei/qianlong-email-marketing-control/raw/master/Screenshots/login.png)
+![screenshot](https://github.com/bywei/qianlong-email-marketing-control/raw/master/Screenshots/main.png)
+
+# ÏµÍ³ÓÅÊÆ
+![screenshot](https://github.com/bywei/qianlong-email-marketing-assistant/raw/master/Screenshots/banner/2.jpg)
+
+# °æ±¾ËµÃ÷
+```
+V2.3.0Éı¼¶¼ÇÂ¼(qianlong-email-marketing-assistant)
+             Ôö¼ÓÁËÔÚÏßÓÊ¼şÓªÏúĞ§¹û¸ú×Ù£¬ÒÑ¾­ÊµÏÖÁËÔÚÏßÉêÇëÈí¼şÕÊºÅ£¬ÔÚÏß¹ÜÀí¸öÈË×ÊÁÏĞÅÏ¢£¬ÓÊ¼şÄÚ²¿Á´½ÓÍ³¼Æ·ÖÎöµÈ¹¦ÄÜ¡£
+    (1)Í³¼Æ¸Å¿ö
+    (2)×îĞÂ·ÃÎÊ
+    (3)À´Ô´Ã÷Ï¸
+    (4)ÕıÔÚÔÄ¶Á
+    (5)Ò³ÃæÍ³¼Æ
+    (6)Á´½ÓÍ³¼Æ
+    
+    (7)°´Ğ¡Ê±Í³¼Æ
+    (8)°´ÌìÊıÍ³¼Æ
+    (9)°´ÔÂ·İÍ³¼Æ
+    (10)»ØÍ·ÂÊÍ³¼Æ
+    
+    (11)¼ÆÊıÆ÷ÉèÖÃ
+    (12)²ÎÊıÉèÖÃ
+    (13)Í³¼ÆÑùÊ½
+    (15)ÍøÕ¾Í³¼ÆÑùÊ½
+    (16)ÓÊÏäÍ³¼ÆÑùÊ½
+    (17)Í³¼ÆÖØÖÃ
+
+    (18)ĞŞ¸Ä¸öÈË×ÊÁÏ
+```
+![screenshot](https://github.com/bywei/qianlong-email-marketing-assistant/raw/master/Screenshots/banner/1.jpg)
+## ¹ØÓÚ×÷Õß
+
+bywei = ³ÌĞòÔ±°ÙÎ¶
+
+¸öÈË²©¿Í = "http://www.bywei.cn"
+
+
+
+
+

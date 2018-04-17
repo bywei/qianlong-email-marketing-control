@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<plugin>
+<id>PingTool</id>
+<name>Ping中心和引用通告发送器</name>
+<note>自动通知Ping中心,并可以发送引用通告.</note>
+<type>inline</type>
+<include>include.asp</include>
+<path>main.asp</path>
+<level>1</level>
+<author>
+	<name>zx.asd</name>
+	<url>http://www.zdevo.com/</url>
+	<email>rainbowsoft@163.com</email>
+</author>
+<version>1.4</version>
+<adapted>Z-Blog 1.8</adapted>
+<pubdate>2006-8-7</pubdate>
+<modified>2008-5-26</modified>
+</plugin>

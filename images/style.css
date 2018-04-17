@@ -1,0 +1,195 @@
+BODY {
+	PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #4a4b4f; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #ffffff; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+#container {
+	BACKGROUND-IMAGE: url(../images/header_bg.jpg); WIDTH: 100%; BACKGROUND-REPEAT: repeat-x; HEIGHT: 100%
+}
+#main {
+	MARGIN: 0px auto; WIDTH: 980px; HEIGHT: 100%
+}
+#header {
+	WIDTH: 980px; HEIGHT: 74px
+}
+#logo {
+	MARGIN-TOP: 18px; WIDTH: 169px; FLOAT: left; HEIGHT: 54px
+}
+#user_info {
+	MARGIN-TOP: 18px; FLOAT: right
+}
+#user_info A {
+	COLOR: #ffffff
+}
+#block {
+	WIDTH: 980px; BACKGROUND: url(../images/block.jpg); HEIGHT: 88px
+}
+#page {
+	BACKGROUND-COLOR: #ffffff; WIDTH: 980px; HEIGHT: auto; color:#000;
+}
+#bug_1 {
+	MARGIN: 0px auto; WIDTH: 604px; HEIGHT: 22px
+}
+#tabnav {
+	MARGIN: 0px auto; WIDTH: 604px; HEIGHT: 32px
+}
+#bug_tips {
+	MARGIN: 0px auto; WIDTH: 780px; BACKGROUND: url(../images/bitianxinxi.png) no-repeat; HEIGHT: 42px
+}
+#login_dd {
+	MARGIN: 0px auto; WIDTH: 385px; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND: url(../images/login_bg.png) no-repeat; HEIGHT: 256px; COLOR: #000000; FONT-SIZE: 12px
+}
+#pic_xx {
+	MARGIN: 0px auto; WIDTH: 604px; BACKGROUND: url(../images/pic_xx.png); HEIGHT: 274px
+}
+#pic_findps {
+	MARGIN: 0px auto; WIDTH: 604px; BACKGROUND: url(../images/pic_findtheps.png); HEIGHT: 274px
+}
+#pic_getokay {
+	MARGIN: 0px auto; WIDTH: 604px; BACKGROUND: url(../images/pic_getpasswordokay.png); HEIGHT: 274px
+}
+#pic_chanokay {
+	MARGIN: 0px auto; WIDTH: 604px; BACKGROUND: url(../images/pic_changpasswordokay.png); HEIGHT: 274px
+}
+#pic_editokay {
+	MARGIN: 0px auto; WIDTH: 604px; BACKGROUND: url(../images/pic_edituserinfookay.png); HEIGHT: 274px
+}
+#pic_registerokay {
+	MARGIN: 0px auto; WIDTH: 604px; BACKGROUND: url(../images/pic_registerokay.png); HEIGHT: 274px
+}
+#pic_xxxxxx {
+	MARGIN: 0px auto; WIDTH: 604px; BACKGROUND: url(../images/pic_xxxxx.png); HEIGHT: 274px
+}
+#pic_ok {
+	MARGIN: 0px auto; WIDTH: 604px; BACKGROUND: url(../images/pic_ok.png); HEIGHT: 274px
+}
+#txzcxx {
+	MARGIN: 0px auto; WIDTH: 780px
+}
+#bug_2 {
+	WIDTH: 604px; HEIGHT: 80px
+}
+#bug_3 {
+	WIDTH: 604px; HEIGHT: 60px
+}
+#bug_4 {
+	WIDTH: 604px; HEIGHT: 40px
+}
+#text_1 {
+	LINE-HEIGHT: 22px; MARGIN-LEFT: 240px
+}
+#text_2 {
+	LINE-HEIGHT: 22px; MARGIN-LEFT: 240px
+}
+#text_3 {
+	LINE-HEIGHT: 22px; MARGIN-LEFT: 240px
+}
+#text_4 {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #000000; MARGIN-LEFT: 230px; FONT-SIZE: 12px
+}
+#text_5 {
+	PADDING-BOTTOM: 7px; LINE-HEIGHT: 20px; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333; MARGIN-LEFT: 215px; FONT-SIZE: 12px; PADDING-TOP: 7px
+}
+#text_6 {
+	PADDING-BOTTOM: 7px; LINE-HEIGHT: 17px; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333; MARGIN-LEFT: 215px; FONT-SIZE: 16px; PADDING-TOP: 7px
+}
+#txzcxx_tb {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #000000
+}
+#ul {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#tab1 {
+	FLOAT: left
+}
+#tab2 {
+	FLOAT: left
+}
+#tabid1 {
+	MARGIN: 0px auto; WIDTH: 604px; HEIGHT: 330px
+}
+#tabid2 {
+	MARGIN: 0px auto; WIDTH: 604px; DISPLAY: none; HEIGHT: 330px
+}
+#tab_2 {
+	BORDER-BOTTOM: #f89611 1px solid; BORDER-LEFT: #f89611 1px solid; BORDER-TOP: #f89611 1px solid; BORDER-RIGHT: #f89611 1px solid
+}
+#fill_info {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333; FONT-SIZE: 12px
+}
+#page_end {
+	WIDTH: 980px; BACKGROUND: url(../images/page_footer.jpg) no-repeat; HEIGHT: 10px
+}
+#footer {
+	MARGIN: 0px auto; WIDTH: 980px; HEIGHT: 12px
+}
+#info {
+	FLOAT: left; MARGIN-LEFT: 5px
+}
+#info A {
+	COLOR: #ffffff
+}
+#copyright {
+	FLOAT: right; MARGIN-RIGHT: 5px
+}
+.wrong {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #ff0000; FONT-SIZE: 12px
+}
+.right {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; FLOAT: right; COLOR: #ff0000; FONT-SIZE: 12px
+}
+.lt {
+	BORDER-LEFT: #d6d6d6 1px solid; BORDER-TOP: #d6d6d6 1px solid
+}
+.ltb {
+	BORDER-BOTTOM: #d6d6d6 1px solid; BORDER-LEFT: #d6d6d6 1px solid; BORDER-TOP: #d6d6d6 1px solid
+}
+.l {
+	BORDER-LEFT: #d6d6d6 1px solid
+}
+.tr {
+	BORDER-TOP: #d6d6d6 1px solid; BORDER-RIGHT: #d6d6d6 1px solid
+}
+.tb {
+	BORDER-BOTTOM: #d6d6d6 1px solid; BORDER-TOP: #d6d6d6 1px solid
+}
+.trb {
+	BORDER-BOTTOM: #d6d6d6 1px solid; BORDER-TOP: #d6d6d6 1px solid; BORDER-RIGHT: #d6d6d6 1px solid
+}
+.t {
+	BORDER-TOP: #d6d6d6 1px solid
+}
+.ltr {
+	BORDER-LEFT: #d6d6d6 1px solid; BORDER-TOP: #d6d6d6 1px solid; BORDER-RIGHT: #d6d6d6 1px solid
+}
+.r {
+	BORDER-RIGHT: #d6d6d6 1px solid
+}
+#tijiaoanniu {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 271px; BORDER-TOP-STYLE: none; BACKGROUND: url(../images/tijiao.png); HEIGHT: 50px; BORDER-LEFT-STYLE: none
+}
+#quedingle {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 72px; BORDER-TOP-STYLE: none; BACKGROUND: url(../images/sure.png); HEIGHT: 29px; BORDER-LEFT-STYLE: none
+}
+#jiangmimafasong {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 174px; BORDER-TOP-STYLE: none; BACKGROUND: url(../images/senaddress.png); HEIGHT: 28px; BORDER-LEFT-STYLE: none
+}
+#denglule {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 69px; BORDER-TOP-STYLE: none; BACKGROUND: url(../images/djj.jpg); HEIGHT: 24px; BORDER-LEFT-STYLE: none
+}
+#fasongjihuoyoujian {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 127px; BORDER-TOP-STYLE: none; BACKGROUND: url(../images/cr.png); HEIGHT: 28px; BORDER-LEFT-STYLE: none
+}
+.grayi {
+	BACKGROUND-IMAGE: url(../images/button_info_d.png); BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 164px; BORDER-TOP-STYLE: none; HEIGHT: 32px; BORDER-LEFT-STYLE: none
+}
+.orangei {
+	BACKGROUND-IMAGE: url(../images/button_info_u.png); BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 164px; BORDER-TOP-STYLE: none; HEIGHT: 32px; BORDER-LEFT-STYLE: none
+}
+.grayp {
+	BACKGROUND-IMAGE: url(../images/button_password_d.png); BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 164px; BORDER-TOP-STYLE: none; HEIGHT: 32px; BORDER-LEFT-STYLE: none
+}
+.orangep {
+	BACKGROUND-IMAGE: url(../images/button_password_u.png); BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 164px; BORDER-TOP-STYLE: none; HEIGHT: 32px; BORDER-LEFT-STYLE: none
+}
+.AutoNewline {
+	WORD-BREAK: break-all
+}

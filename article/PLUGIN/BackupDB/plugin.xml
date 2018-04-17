@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<plugin>
+<id>BackupDB</id>
+<name>BackupDB</name>
+<note>Z-Blog的数据库备份及升级程序</note>
+<type>inline</type>
+<path>main.asp</path>
+<include>include.asp</include>
+<level>1</level>
+<author>
+	<name>Sipo</name>
+	<url>http://www.dc9.cn/</url>
+	<email></email>
+</author>
+<version>1.1</version>
+<modified>2007-12-26</modified>
+</plugin>
